@@ -31,3 +31,18 @@ The results are printed in the terminal and saved to a CSV file (`log_analysis_r
    git clone https://github.com/your-username/log-analysis-project.git
    cd log-analysis-project
 ## pip install -r requirements.txt
+## Output
+The analysis results are displayed in the terminal and saved to a CSV file:
+Requests per IP Address:
+IP Address           Request Count
+----------------------------------------
+127.0.0.1            5
+192.168.0.10         3
+
+Most Frequently Accessed Endpoint:
+/home (Accessed 5 times)
+
+Suspicious Activity Detected:
+IP Address           Failed Login Attempts
+----------------------------------------
+192.168.0.10         3
